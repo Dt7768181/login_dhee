@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin login,signin|Linkedin</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-top: 25px;
+        }
+        .box{
+            border: 1px white;
+            padding: 30px;
+            box-shadow: 5px 5px 5px 5px silver;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            width: 330px;
+            border-radius: 50px;
+        }
+        .box h1,p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input[type="text"],input[type="password"]{
+            width: 300px;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 2px;
+        }
+        a{
+            text-decoration: none;
+        }
+        label{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .other button{
+            background-color: white;
+            color: #000;
+            font-size: 15px;
+        }
+        .other image{
+            margin-right: 10px ;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="assets/images/Linkedin-Lodt.png">
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1>Sign in</h1>
+            <p style="font-size: small;">Stay updated on your professional world</p>
+            <form>
+                <input type="text"id="e" required placeholder="Email or Phone"><br><br>
+                <input type="password" id="p"required placeholder="Password"><br><br>
+                <a href="#" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">forgot Password</a><br><br>
+                <input type="checkbox" id="chkbox"><label for="chkbox">Keep me logged in</label><br><br>
+                <button>Login</button><br><br>
+                <p>Connect with</p>
+                <div class="other">
+                    <button><img src="assets/images/glogo (1).png">Continue with Google</button><br><br>
+                    <button><img src="assets/images/apple (1).png"> Sign in with Apple</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
